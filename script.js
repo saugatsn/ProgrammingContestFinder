@@ -18,12 +18,15 @@ response
           <div class="card-body">
             <h5 class="card-title">${contests[key].name}</h5>
             <p class="card-text">
-              Start Time: <br> ${contests[key].start_time}
+              Start Time: <br> <strong> ${contests[key].start_time} </strong>
             </p>
             <p class="card-text">
-              End Time: <br> ${contests[key].end_time}
+              End Time: <br> <strong> ${contests[key].end_time} </strong>
             </p>
-            <a href=${contests[key].url} class="btn btn-primary">Learn more</a>
+            <p class="card-text">
+              In 24 hours? <strong> ${contests[key].in_24_hours} </strong> 
+            </p>
+            <a href=${contests[key].url} target ="_blank" class="btn btn-primary">Learn more</a>
           </div>
         </div>
       `;
