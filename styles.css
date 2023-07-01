@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.navbar {
+  margin-bottom: 2rem;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+#cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
